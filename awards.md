@@ -2,7 +2,7 @@
 title: Awards
 ---
 
-# Community Awards
+# QuBruin Awards
 
 Here we highlight major recognitions received by our members and projects.
 

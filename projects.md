@@ -1,8 +1,8 @@
 ---
-title: Contributions
+title: Projects
 ---
 
-# Contributions
+# Projects
 
 This page aggregates the tools, libraries, papers, and talks produced by the community.
 
