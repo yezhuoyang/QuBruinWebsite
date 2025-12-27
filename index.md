@@ -12,7 +12,7 @@ title: UCLA fault-tolerant Quantum Programming Community
 
 # UCLA Quantum Programming Community
 
-Welcome to the Quantum Programming Community!
+Welcome to the Quantum Programming Community! 
 
 We bring together researchers, students, and developers working on:
 
@@ -20,6 +20,9 @@ We bring together researchers, students, and developers working on:
 - Quantum compilers and optimizations
 - Quantum error correction (QEC)
 - Simulation and benchmarking
+
+We provide end-to-end compilation solution and bcenchmarking for quantum fault-tolerant applications.
+
 
 ## Explore
 
