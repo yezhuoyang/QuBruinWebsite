@@ -1,3 +1,12 @@
-title: Quantum Programming Community
+title: UCLA Quantum Programming Community
 description: A community for quantum programming, compilers, and QEC.
 theme: minima
+
+
+
+# Navigation links in the top bar
+header_pages:
+  - index.md
+  - awards.md
+  - members.md
+  - projects.md

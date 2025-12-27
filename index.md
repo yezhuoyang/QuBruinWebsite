@@ -1,12 +1,13 @@
 ---
+layout: page
 title: UCLA fault-tolerant Quantum Programming Community
 ---
 
-<p align="center">
-  <img src="./images/Logo.png"
+<div style="text-align: center;">
+  <img src="{{ '/images/Logo.png' | relative_url }}"
        alt="UCLA Fault-Tolerant Quantum Programming Community"
-       width="420">
-</p>
+       style="max-width: 420px;">
+</div>
 
 
 # UCLA Quantum Programming Community
@@ -22,9 +23,9 @@ We bring together researchers, students, and developers working on:
 
 ## Explore
 
-- [Awards](./awards.md)
-- [Members](./members.md)
-- [Projects](./projects.md)
+- [Awards](./awards.html)
+- [Members](./members.html)
+- [Projects](./projects.html)
 
 ## Mission
 
