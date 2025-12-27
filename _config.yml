@@ -6,7 +6,7 @@ theme: minima
 
 # Navigation links in the top bar
 header_pages:
-  - index.md
+  - ftbenchmark.md
   - awards.md
   - members.md
   - projects.md

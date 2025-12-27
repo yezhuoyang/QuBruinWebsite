@@ -10,7 +10,7 @@ title: UCLA fault-tolerant Quantum Programming Community
 </div>
 
 
-# UCLA Quantum Programming Community
+# UCLA fault-tolerant Quantum Programming Community
 
 Welcome to the Quantum Programming Community! 
 
@@ -27,6 +27,7 @@ We provide end-to-end compilation solution and bcenchmarking for quantum fault-t
 ## Explore
 
 - [Awards](./awards.html)
+- [Fault-tolerant benchmarks](./ftbenchmark.html)
 - [Members](./members.html)
 - [Projects](./projects.html)
 
@@ -34,3 +35,9 @@ We provide end-to-end compilation solution and bcenchmarking for quantum fault-t
 
 Our mission is to build an open, collaborative community for quantum
 programming — sharing code, ideas, and results. We design new fault-tolerant quantum programming language 
+
+
+## Sponsors
+
+
+Please contact yezhuoyang@cs.ucla.edu if you are interested for sponsoring QuBruin.

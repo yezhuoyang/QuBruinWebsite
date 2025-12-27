@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Fault-Tolerant Benchmark Applications | UCLA Quantum Programming Community</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Fault-Tolerant Benchmark Applications" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A community for quantum programming, compilers, and QEC." />
+<meta property="og:description" content="A community for quantum programming, compilers, and QEC." />
+<link rel="canonical" href="http://localhost:4000/ftbenchmark.html" />
+<meta property="og:url" content="http://localhost:4000/ftbenchmark.html" />
+<meta property="og:site_name" content="UCLA Quantum Programming Community" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Fault-Tolerant Benchmark Applications" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A community for quantum programming, compilers, and QEC.","headline":"Fault-Tolerant Benchmark Applications","url":"http://localhost:4000/ftbenchmark.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="UCLA Quantum Programming Community" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">UCLA Quantum Programming Community</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/ftbenchmark.html">Fault-Tolerant Benchmark Applications</a><a class="page-link" href="/awards.html">Awards</a><a class="page-link" href="/members.html">Members</a><a class="page-link" href="/projects.html">Projects</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Fault-Tolerant Benchmark Applications</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="fault-tolerant-benchmark-applications">Fault-Tolerant Benchmark Applications</h1>
+
+<p>This page collects benchmark circuits and experiments for fault-tolerant
+quantum computing. Each section focuses on a different application family
+and lists concrete implementations with code parameters, noise / decoder
+assumptions, and basic performance metrics.</p>
+
+<p>The tables below use the following columns:</p>
+
+<ol>
+  <li><strong>Name</strong> – short label for the benchmark instance</li>
+  <li><strong>Code (type, parameters)</strong> – e.g., surface code <code class="language-plaintext highlighter-rouge">d=3</code>, Steane <code class="language-plaintext highlighter-rouge">[[7,1,3]]</code></li>
+  <li><strong>Noise / Decoder</strong> – noise model and decoding strategy</li>
+  <li><strong>Qubits</strong> – total physical qubit count (data + ancilla/helper)</li>
+  <li><strong>Fidelity</strong> – logical success probability or 1 − logical error rate</li>
+  <li><strong>GitHub</strong> – link to code or configuration</li>
+</ol>
+
+<hr />
+
+<h2 id="1-logical-gates">1. Logical Gates</h2>
+
+<p>Logical gate benchmarks study encoded single- and two-qubit gates
+(e.g., logical <code class="language-plaintext highlighter-rouge">X</code>, <code class="language-plaintext highlighter-rouge">Z</code>, <code class="language-plaintext highlighter-rouge">H</code>, <code class="language-plaintext highlighter-rouge">S</code>, <code class="language-plaintext highlighter-rouge">T</code>, <code class="language-plaintext highlighter-rouge">CNOT</code>) implemented on top of a
+quantum error-correcting code. These benchmarks are useful for
+comparing different codes, layouts, and decoders under the same physical
+noise assumptions.</p>
+
+<h3 id="benchmark-instances">Benchmark Instances</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Code (type, parameters)</th>
+      <th>Noise / Decoder</th>
+      <th>Qubits</th>
+      <th>Fidelity</th>
+      <th>GitHub</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Logical CNOT (Surface d=3)</td>
+      <td>Surface code, rotated lattice, distance d=3</td>
+      <td>Depolarizing p=1e-3 (2-qubit), MWPM decoder (PyMatching)</td>
+      <td>49</td>
+      <td>0.992</td>
+      <td><a href="https://github.com/USERNAME/REPO1">Link</a></td>
+    </tr>
+    <tr>
+      <td>Logical T via MSD (Steane)</td>
+      <td>Steane code <code class="language-plaintext highlighter-rouge">[[7,1,3]]</code> with magic-state distillation</td>
+      <td>Biased dephasing <code class="language-plaintext highlighter-rouge">p_Z = 2e-3</code>, lookup-table decoder</td>
+      <td>35</td>
+      <td>0.985</td>
+      <td><a href="https://github.com/USERNAME/REPO2">Link</a></td>
+    </tr>
+    <tr>
+      <td>Repeated Logical Id (Bacon–Shor)</td>
+      <td>Bacon–Shor code <code class="language-plaintext highlighter-rouge">n_x=3, n_z=3</code></td>
+      <td>Circuit-level depolarizing p=5e-4, belief-propagation decoder</td>
+      <td>27</td>
+      <td>0.998</td>
+      <td><a href="https://github.com/USERNAME/REPO3">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>Replace <code class="language-plaintext highlighter-rouge">USERNAME/REPO*</code> with your actual repositories or configs.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="2-shors-algorithm">2. Shor’s Algorithm</h2>
+
+<p>Shor’s algorithm factors an integer using modular exponentiation and a
+quantum Fourier transform (QFT). Fault-tolerant benchmarks typically
+use small composite numbers (e.g., 15, 21) encoded in QEC codes and
+focus on the cost and reliability of modular arithmetic plus QFT under
+realistic noise.</p>
+
+<h3 id="benchmark-instances-1">Benchmark Instances</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Code (type, parameters)</th>
+      <th>Noise / Decoder</th>
+      <th>Qubits</th>
+      <th>Fidelity</th>
+      <th>GitHub</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Shor N = 15 (Logical)</td>
+      <td>Surface code d=3 for all logical qubits</td>
+      <td>Circuit-level depolarizing p=1e-3, MWPM decoder</td>
+      <td>128</td>
+      <td>0.93</td>
+      <td><a href="https://github.com/USERNAME/REPO4">Link</a></td>
+    </tr>
+    <tr>
+      <td>Shor N = 21 (Hybrid Layout)</td>
+      <td>Mixed surface codes d=3 / d=5 for work registers</td>
+      <td>Spatially correlated noise (<code class="language-plaintext highlighter-rouge">p_2q=1e-3</code>), tensor-network decoder</td>
+      <td>256</td>
+      <td>0.89</td>
+      <td><a href="https://github.com/USERNAME/REPO5">Link</a></td>
+    </tr>
+    <tr>
+      <td>Shor N = 15 (Color Code)</td>
+      <td>2D color code distance d=3</td>
+      <td>Biased dephasing (<code class="language-plaintext highlighter-rouge">p_Z &gt; p_X</code>), MWPM-style color decoder</td>
+      <td>162</td>
+      <td>0.91</td>
+      <td><a href="https://github.com/USERNAME/REPO6">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="3-qaoa">3. QAOA</h2>
+
+<p>The Quantum Approximate Optimization Algorithm (QAOA) is a
+variational algorithm for combinatorial optimization (e.g., MaxCut,
+Max-2-SAT). Fault-tolerant QAOA benchmarks emphasize the overhead of
+implementing parameterized layers at logical level, including logical
+ZZ and X mixers, and measure how logical error rates affect the final
+approximation ratio.</p>
+
+<h3 id="benchmark-instances-2">Benchmark Instances</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Code (type, parameters)</th>
+      <th>Noise / Decoder</th>
+      <th>Qubits</th>
+      <th>Fidelity</th>
+      <th>GitHub</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>QAOA MaxCut (p = 1, 8 nodes)</td>
+      <td>Surface code d=3 (one logical per graph vertex)</td>
+      <td>Depolarizing p=1e-3, MWPM decoder</td>
+      <td>96</td>
+      <td>0.95</td>
+      <td><a href="https://github.com/USERNAME/REPO7">Link</a></td>
+    </tr>
+    <tr>
+      <td>QAOA MaxCut (p = 2, 12 nodes)</td>
+      <td>Surface code d=5, lattice-surgery entangling gates</td>
+      <td>Circuit-level depolarizing p=5e-4, MWPM decoder</td>
+      <td>320</td>
+      <td>0.92</td>
+      <td><a href="https://github.com/USERNAME/REPO8">Link</a></td>
+    </tr>
+    <tr>
+      <td>QAOA Portfolio Opt. (p = 1)</td>
+      <td>Steane <code class="language-plaintext highlighter-rouge">[[7,1,3]]</code> logical qubits for cost Hamiltonian</td>
+      <td>Asymmetric noise (<code class="language-plaintext highlighter-rouge">T_1</code>, <code class="language-plaintext highlighter-rouge">T_2</code>-derived channels), lookup-table decoder</td>
+      <td>70</td>
+      <td>0.90</td>
+      <td><a href="https://github.com/USERNAME/REPO9">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="4-grovers-algorithm">4. Grover’s Algorithm</h2>
+
+<p>Grover’s search algorithm provides quadratic speedup for unstructured
+search. Fault-tolerant Grover benchmarks typically implement an oracle
+and diffusion operator using logical gates, then measure how many Grover
+iterations can be performed before logical errors dominate.</p>
+
+<h3 id="benchmark-instances-3">Benchmark Instances</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Code (type, parameters)</th>
+      <th>Noise / Decoder</th>
+      <th>Qubits</th>
+      <th>Fidelity</th>
+      <th>GitHub</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Grover 1-marked item (n = 4)</td>
+      <td>Surface code d=3, logical oracle via Toffoli synthesis</td>
+      <td>Depolarizing p=1e-3, MWPM decoder</td>
+      <td>80</td>
+      <td>0.96</td>
+      <td><a href="https://github.com/USERNAME/REPO10">Link</a></td>
+    </tr>
+    <tr>
+      <td>Grover 1-marked item (n = 6)</td>
+      <td>Surface code d=5, helper-qubit-heavy ancilla factory</td>
+      <td>Correlated 2-qubit noise, tensor-network decoder</td>
+      <td>240</td>
+      <td>0.93</td>
+      <td><a href="https://github.com/USERNAME/REPO11">Link</a></td>
+    </tr>
+    <tr>
+      <td>Grover oracle with QEC-protected data</td>
+      <td>Bacon–Shor logical data, unencoded ancilla helpers</td>
+      <td>Amplitude-damping + dephasing, belief-propagation decoder</td>
+      <td>112</td>
+      <td>0.90</td>
+      <td><a href="https://github.com/USERNAME/REPO12">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>You can:</p>
+
+<ul>
+  <li>Adjust intros to match your own terminology.</li>
+  <li>Replace the placeholder repos (<code class="language-plaintext highlighter-rouge">USERNAME/REPO*</code>) with your actual
+GitHub links.</li>
+  <li>Add or remove rows in each table as your benchmark suite grows.</li>
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">UCLA Quantum Programming Community</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">UCLA Quantum Programming Community</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A community for quantum programming, compilers, and QEC.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

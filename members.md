@@ -7,114 +7,212 @@ title: Members
 Below are active members of the Quantum Programming Community.
 Each profile includes contact links, research interests, and contributions.
 
+<style>
+.member-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.member-card {
+  width: 260px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  display: flex;
+  gap: 12px;
+}
+
+.member-card img {
+  border-radius: 8px;
+}
+
+.member-card h3 {
+  margin-top: 2px;
+  margin-bottom: 6px;
+  font-size: 1.05rem;
+}
+</style>
+
 ---
 
 ## Organizers
 
 <div style="display: flex; gap: 16px; align-items: flex-start; margin-bottom: 20px;">
-<img src="./images/people/john_ye.jpg" alt="John Ye" width="140" style="border-radius: 8px;">
-<div>
 
-### **John Ye**  
-UCLA — Quantum Systems & Error Correction  
+  <img src="./images/people/john_ye.jpg"
+       alt="John Ye"
+       width="140"
+       style="border-radius: 8px;">
 
-**Webpage:**  
-<a href="https://example.com" target="_blank">https://example.com</a>
+  <div>
 
-**Introduction:**  
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
-John works on scalable quantum error-correction infrastructure, helper-qubit-aware scheduling,
-and logical error-rate estimation methodologies for large-scale quantum processors.
-</div>
+    <h3>John Ye — UCLA</h3>
+    <p><strong>Area:</strong> Quantum Systems &amp; Error Correction</p>
 
-</div>
-</div>
+    <p><strong>Webpage:</strong>
+      <a href="https://yezhuoyang.github.io/" target="_blank">
+        https://yezhuoyang.github.io/
+      </a>
+    </p>
 
----
+    <div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
+      John works on scalable quantum error-correction infrastructure,
+      helper-qubit-aware scheduling, and logical error-rate estimation
+      methodologies for large-scale quantum processors.
+    </div>
 
-<div style="display: flex; gap: 16px; align-items: flex-start; margin-bottom: 20px;">
-
-<img src="./images/members/fake.png" alt="Name 2" width="140" style="border-radius: 8px;">
-
-<div>
-
-### **Name 2**  
-Professor / UCLA  
-
-**Webpage:**  
-<a href="https://example.com" target="_blank">https://example.com</a>
-
-**Introduction:**  
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
-Jens Palsberg is the advisor of QuBruin
-</div>
-
-</div>
-</div>
-
----
-
-## Core Contributors
-
-<div style="display: flex; gap: 16px; align-items: flex-start; margin-bottom: 20px;">
-
-<img src="./images/people/fake.png" alt="Name A" width="140" style="border-radius: 8px;">
-
-<div>
-
-### **Name A**  
-Quantum Compiler Researcher  
-
-**Webpage:**  
-<a href="https://example.com" target="_blank">https://example.com</a>
-
-**Introduction:**  
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
-Works on quantum compiler optimization, mapping heuristics, and simulation-driven performance studies.
-</div>
-
-</div>
+  </div>
 </div>
 
 ---
 
 <div style="display: flex; gap: 16px; align-items: flex-start; margin-bottom: 20px;">
 
-<img src="./images/people/fake.png" alt="Name B" width="140" style="border-radius: 8px;">
+  <img src="./images/people/jens.jpg"
+       alt="Jens Palsberg"
+       width="140"
+       style="border-radius: 8px;">
 
-<div>
+  <div>
 
-### **Name B**  
-QEC Simulation & Benchmarking  
+    <h3>Jens Palsberg — Professor, UCLA</h3>
 
-**Webpage:**  
-<a href="https://example.com" target="_blank">https://example.com</a>
+    <p><strong>Webpage:</strong>
+      <a href="https://web.cs.ucla.edu/~palsberg/" target="_blank">
+        https://web.cs.ucla.edu/~palsberg/
+      </a>
+    </p>
 
-**Introduction:**  
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
-Focuses on QEC simulations, stabilizer-based fault-injection experiments, and evaluation frameworks.
-</div>
+    <div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
+      Jens Palsberg is the faculty advisor of QuBruin.
+    </div>
 
-</div>
+  </div>
 </div>
 
 ---
 
-## Alumni & Friends
+# Contest Award Winners
 
-<div style="display: flex; gap: 16px; align-items: flex-start; margin-bottom: 20px;">
+Members listed below participated in hackathons and competitions
+and contributed to award-winning projects featured on the Awards page.
 
-<img src="./images/people/fake.png" alt="Name X" width="140" style="border-radius: 8px;">
+(Photos use placeholders for now.)
 
-<div>
+---
 
-### **Name X**  
-Former Member — now at <a href="https://example.com" target="_blank">Institute / Company</a>
+## YQuantum 2025 — QuEra Track Winners
 
-**Introduction:**  
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
-Previously contributed to community projects and research collaborations.
+<div class="member-grid">
+
+  <div class="member-card">
+    <img src="./images/people/fake.png" alt="Mu Niu" width="90">
+    <div>
+      <h3>Mu Niu</h3>
+      <div>
+        Member of the QuEra Track winning team at YQuantum 2025.
+      </div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img src="./images/people/fake.png" alt="Victor Yu" width="90">
+    <div>
+      <h3>Victor Yu</h3>
+      <div>
+        Member of the QuEra Track winning team at YQuantum 2025.
+      </div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img src="./images/people/fake.png" alt="Hanyu Wang" width="90">
+    <div>
+      <h3>Hanyu Wang</h3>
+      <div>
+        Member of the QuEra Track winning team at YQuantum 2025.
+      </div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img src="./images/people/fake.png" alt="Haochen Wang" width="90">
+    <div>
+      <h3>Haochen Wang</h3>
+      <div>
+        Member of the QuEra Track winning team at YQuantum 2025.
+      </div>
+    </div>
+  </div>
+
 </div>
 
+---
+
+## YQuantum 2024 — Grand Prize 3rd Place
+
+<div class="member-grid">
+
+  <div class="member-card">
+    <img src="./images/people/fake.png" alt="Qiyu Liu" width="90">
+    <div>
+      <h3>Qiyu Liu</h3>
+      <div>
+        Member of the Grand Prize 3rd Place team at YQuantum 2024.
+      </div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img src="./images/people/fake.png" alt="Manvi Agrawal" width="90">
+    <div>
+      <h3>Manvi Agrawal</h3>
+      <div>
+        Member of the Grand Prize 3rd Place team at YQuantum 2024.
+      </div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img src="./images/people/fake.png" alt="Changsoo Kim" width="90">
+    <div>
+      <h3>Changsoo Kim</h3>
+      <div>
+        Member of the Grand Prize 3rd Place team at YQuantum 2024.
+      </div>
+    </div>
+  </div>
+
 </div>
+
+---
+
+## MIT Hackathon 2024 — Quandela Track Winners
+
+<div class="member-grid">
+
+  <div class="member-card">
+    <img src="./images/people/fake.png" alt="Yarin Heffes" width="90">
+    <div>
+      <h3>Yarin Heffes</h3>
+      <div>
+        Member of the Quandela Track winning team at MIT Hackathon 2024.
+      </div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img src="./images/people/fake.png" alt="Roberto Negrin" width="90">
+    <div>
+      <h3>Roberto Negrin</h3>
+      <div>
+        Member of the Quandela Track winning team at MIT Hackathon 2024.
+      </div>
+    </div>
+  </div>
+
 </div>
+
