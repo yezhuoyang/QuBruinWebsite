@@ -93,6 +93,40 @@ Each profile includes contact links, research interests, and contributions.
   </div>
 </div>
 
+
+
+
+## Core members
+
+
+
+<div style="display: flex; gap: 16px; align-items: flex-start; margin-bottom: 20px;">
+
+  <img src="./images/people/aarav.jpeg"
+       alt="Aarav Pabla"
+       width="140"
+       style="border-radius: 8px;">
+
+  <div>
+
+    <h3>Aarav Pabla — UCLA</h3>
+    <p><strong>Area:</strong> Quantum Systems &amp; Error Correction</p>
+
+    <p><strong>Webpage:</strong>
+      <a href="https://github.com/apabla1" target="_blank">
+        https://github.com/apabla1
+      </a>
+    </p>
+
+    <div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
+      Aarav is an undergraduate student in UCLA working activly on quantum error correction.
+    </div>
+
+  </div>
+</div>
+
+
+
 ---
 
 # Contest Award Winners

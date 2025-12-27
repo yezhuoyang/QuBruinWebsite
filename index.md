@@ -6,7 +6,7 @@ title: UCLA fault-tolerant Quantum Programming Community
 <div style="text-align: center;">
   <img src="{{ '/images/Logo.png' | relative_url }}"
        alt="UCLA Fault-Tolerant Quantum Programming Community"
-       style="max-width: 420px;">
+       style="max-width: 320px;">
 </div>
 
 
