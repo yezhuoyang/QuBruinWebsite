@@ -143,17 +143,23 @@ and contributed to award-winning projects featured on the Awards page.
 <div class="member-grid">
 
   <div class="member-card">
-    <img src="./images/people/lucaniu.jpg" alt="Mu Niu" width="90">
+    <img src="./images/people/lucaniu.jpg"
+         alt="Mu Niu"
+         style="width: 90px; height: 90px; object-fit: cover;">
     <div>
       <h3>Mu Niu</h3>
       <div>
-        Member of the QuEra Track winning team at YQuantum 2025.Mu is a PhD student working mostly on the theory of trapped ion and quantum simulation. He enjoys reading novels, playing soccer, and board games in free time.
+        Member of the QuEra Track winning team at YQuantum 2025. Mu is a PhD student
+        working mostly on the theory of trapped ion and quantum simulation. He enjoys
+        reading novels, playing soccer, and board games in free time.
       </div>
     </div>
   </div>
 
   <div class="member-card">
-    <img src="./images/people/fake.png" alt="Victor Yu" width="90">
+    <img src="./images/people/fake.png"
+         alt="Victor Yu"
+         style="width: 90px; height: 90px; object-fit: cover;">
     <div>
       <h3>Victor Yu</h3>
       <div>
@@ -163,7 +169,9 @@ and contributed to award-winning projects featured on the Awards page.
   </div>
 
   <div class="member-card">
-    <img src="./images/people/fake.png" alt="Hanyu Wang" width="90">
+    <img src="./images/people/fake.png"
+         alt="Hanyu Wang"
+         style="width: 90px; height: 90px; object-fit: cover;">
     <div>
       <h3>Hanyu Wang</h3>
       <div>
@@ -173,7 +181,9 @@ and contributed to award-winning projects featured on the Awards page.
   </div>
 
   <div class="member-card">
-    <img src="./images/people/fake.png" alt="Haochen Wang" width="90">
+    <img src="./images/people/fake.png"
+         alt="Haochen Wang"
+         style="width: 90px; height: 90px; object-fit: cover;">
     <div>
       <h3>Haochen Wang</h3>
       <div>
@@ -187,11 +197,12 @@ and contributed to award-winning projects featured on the Awards page.
 ---
 
 ## YQuantum 2024 — Grand Prize 3rd Place
-
 <div class="member-grid">
 
   <div class="member-card">
-    <img src="./images/people/fake.png" alt="Qiyu Liu" width="90">
+    <img src="./images/people/fake.png"
+         alt="Qiyu Liu"
+         style="width: 90px; height: 90px; object-fit: cover;">
     <div>
       <h3>Qiyu Liu</h3>
       <div>
@@ -201,7 +212,9 @@ and contributed to award-winning projects featured on the Awards page.
   </div>
 
   <div class="member-card">
-    <img src="./images/people/fake.png" alt="Manvi Agrawal" width="90">
+    <img src="./images/people/fake.png"
+         alt="Manvi Agrawal"
+         style="width: 90px; height: 90px; object-fit: cover;">
     <div>
       <h3>Manvi Agrawal</h3>
       <div>
@@ -211,7 +224,9 @@ and contributed to award-winning projects featured on the Awards page.
   </div>
 
   <div class="member-card">
-    <img src="./images/people/fake.png" alt="Changsoo Kim" width="90">
+    <img src="./images/people/fake.png"
+         alt="Changsoo Kim"
+         style="width: 90px; height: 90px; object-fit: cover;">
     <div>
       <h3>Changsoo Kim</h3>
       <div>
@@ -222,6 +237,7 @@ and contributed to award-winning projects featured on the Awards page.
 
 </div>
 
+
 ---
 
 ## MIT Hackathon 2024 — Quandela Track Winners
@@ -229,7 +245,9 @@ and contributed to award-winning projects featured on the Awards page.
 <div class="member-grid">
 
   <div class="member-card">
-    <img src="./images/people/fake.png" alt="Yarin Heffes" width="90">
+    <img src="./images/people/fake.png"
+         alt="Yarin Heffes"
+         style="width: 90px; height: 90px; object-fit: cover;">
     <div>
       <h3>Yarin Heffes</h3>
       <div>
@@ -239,7 +257,9 @@ and contributed to award-winning projects featured on the Awards page.
   </div>
 
   <div class="member-card">
-    <img src="./images/people/fake.png" alt="Roberto Negrin" width="90">
+    <img src="./images/people/fake.png"
+         alt="Roberto Negrin"
+         style="width: 90px; height: 90px; object-fit: cover;">
     <div>
       <h3>Roberto Negrin</h3>
       <div>
@@ -249,4 +269,3 @@ and contributed to award-winning projects featured on the Awards page.
   </div>
 
 </div>
-
