@@ -143,11 +143,11 @@ and contributed to award-winning projects featured on the Awards page.
 <div class="member-grid">
 
   <div class="member-card">
-    <img src="./images/people/fake.png" alt="Mu Niu" width="90">
+    <img src="./images/people/lucaniu.jpg" alt="Mu Niu" width="90">
     <div>
       <h3>Mu Niu</h3>
       <div>
-        Member of the QuEra Track winning team at YQuantum 2025.
+        Member of the QuEra Track winning team at YQuantum 2025.Mu is a PhD student working mostly on the theory of trapped ion and quantum simulation. He enjoys reading novels, playing soccer, and board games in free time.
       </div>
     </div>
   </div>

@@ -78,18 +78,18 @@ Please contact yezhuoyang@cs.ucla.edu if you are interested for sponsoring QuBru
 
   <!-- UCLA logo -->
   <figure class="collab-logo">
-    <img src="{{ '/images/ucla.png' | https://www.ucla.edu/ }}"
+    <img src="{{ './images/ucla.png' | https://www.ucla.edu/ }}"
          alt="UCLA">
   </figure>
 
   <!-- Empty placeholders for future university collaborators -->
   <figure class="collab-logo">
-    <img src="{{ '/images/mit.jpg' | https://www.iquise.mit.edu/}}"
+    <img src="{{ './images/mit.jpg' | https://www.iquise.mit.edu/}}"
          alt="MIT">
   </figure>
 
   <figure class="collab-logo">
-    <img src="{{ '/images/Yale.png' | https://yquantum.info/ }}"
+    <img src="{{ './images/Yale.png' | https://yquantum.info/ }}"
          alt="Yale">
   </figure>
 
@@ -101,17 +101,17 @@ Please contact yezhuoyang@cs.ucla.edu if you are interested for sponsoring QuBru
 
   <!-- Empty placeholders for company collaborators -->
   <figure class="collab-logo">
-    <img src="{{ '/images/ibm.jpg' | https://quantum.cloud.ibm.com/ }}"
+    <img src="{{ './images/ibm.jpg' | https://quantum.cloud.ibm.com/ }}"
          alt="IBM">
   </figure>
 
   <figure class="collab-logo">
-    <img src="{{ '/images/Quera.png' | https://www.quera.com/ }}"
+    <img src="{{ './images/Quera.png' | https://www.quera.com/ }}"
          alt="QuEra">
   </figure>
 
   <figure class="collab-logo">
-    <img src="{{ '/images/quandela.png' |https://www.quandela.com/ }}"
+    <img src="{{ './images/quandela.png' |https://www.quandela.com/ }}"
          alt="Quandela">
   </figure>
 
