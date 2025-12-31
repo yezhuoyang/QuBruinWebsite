@@ -127,6 +127,34 @@ Each profile includes contact links, research interests, and contributions.
 
 
 
+<div style="display: flex; gap: 16px; align-items: flex-start; margin-bottom: 20px;">
+
+  <img src="./images/people/elliot.jpg"
+       alt="Elliot Cao"
+       width="140"
+       style="border-radius: 8px;">
+
+  <div>
+
+    <h3>Elliot Cao — UCLA</h3>
+    <p><strong>Area:</strong> Quantum Algorithms & Programming Language</p>
+
+    <p><strong>Webpage:</strong>
+      <a href="https://github.com/ElliottheCat" target="_blank">
+        https://github.com/ElliottheCat
+      </a>
+    </p>
+
+    <div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
+  Elliot studies quantum algorithms and quantum advantage, with strengths in programming languages and linear algebra. They aim to bridge computer science and mathematics to build practical quantum programming tools and applications.
+    </div>
+
+  </div>
+</div>
+
+
+
+
 ---
 
 # Contest Award Winners
